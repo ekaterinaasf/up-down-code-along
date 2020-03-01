@@ -11,6 +11,7 @@ function upHandler() {
 
   // update state (.current & .past)
   numbers.current = newCurrent;
+  numbers.increment = increment;
   numbers.past.push(numbers.current);
 
   // render to user
